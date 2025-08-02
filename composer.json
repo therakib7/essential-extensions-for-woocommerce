@@ -1,0 +1,51 @@
+{
+    "name": "therakib7/essential-extensions-for-woocommerce",
+    "version": "0.1.0",
+    "description": "A customization plugin for WordPress.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Rakib",
+            "email": "support@softtent.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "phpcompatibility/phpcompatibility-wp": "dev-master",
+        "wp-phpunit/wp-phpunit": "^6.0",
+        "yoast/phpunit-polyfills": "^1.0",
+        "doctrine/instantiator": "^1.3.1",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "EssentialExtensionsWC\\": "includes/",
+            "EssentialExtensionsWC\\Tests\\": "tests/phpunit/"
+        }
+    },
+    "scripts": {
+        "phpcs": [
+            "phpcs -ps"
+        ],
+        "phpcs:fix": [
+            "phpcbf -p"
+        ],
+        "test": [
+            "phpunit"
+        ],
+        "test:all": [
+            "phpcs -ps & phpunit"
+        ]
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}

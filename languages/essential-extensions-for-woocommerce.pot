@@ -1,0 +1,176 @@
+# Copyright (c) 2025 Rakibul Hasan. All Rights Reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: Essential Extensions for WooCommerce 0.1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/therakib7/essential-extensions-for-woocommerce/issues\n"
+"Last-Translator: support@softtent.com\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-02T08:32:59+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: essential-extensions-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: essential-extensions-for-woocommerce.php
+msgid "Essential Extensions for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: essential-extensions-for-woocommerce.php
+msgid "https://wordpress.org/plugins/essential-extensions-for-woocommerce"
+msgstr ""
+
+#. Description of the plugin
+#: essential-extensions-for-woocommerce.php
+msgid "Essential Extensions for WooCommerce in one bundle."
+msgstr ""
+
+#. Author of the plugin
+#: essential-extensions-for-woocommerce.php
+msgid "SoftTent"
+msgstr ""
+
+#. Author URI of the plugin
+#: essential-extensions-for-woocommerce.php
+msgid "https://softtent.com"
+msgstr ""
+
+#: includes/Abstracts/RestApi.php:48
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
+#: includes/Abstracts/RestApi.php:87
+msgid "Authorization header is missing"
+msgstr ""
+
+#: includes/Admin/Menu.php:56
+msgid "Woo Extensions"
+msgstr ""
+
+#: includes/Admin/Menu.php:60
+msgid "Home"
+msgstr ""
+
+#: includes/Admin/Menu.php:65
+#: includes/Api/Types/Extension.php:81
+msgid "Admin Menu Editor"
+msgstr ""
+
+#: includes/Admin/Menu.php:69
+#: includes/Api/Types/Extension.php:87
+msgid "Admin Column Editor"
+msgstr ""
+
+#: includes/Admin/Menu.php:73
+#: includes/Api/Types/Extension.php:93
+msgid "Admin Access Editor"
+msgstr ""
+
+#: includes/Admin/Menu.php:76
+msgid "All Extensions"
+msgstr ""
+
+#: includes/Admin/Menu.php:308
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: includes/Api/Types/Action.php:97
+msgid "Required field is missing"
+msgstr ""
+
+#: includes/Api/Types/Action.php:132
+msgid "Type is missing"
+msgstr ""
+
+#: includes/Api/Types/AdminAccess.php:142
+#: includes/Api/Types/AdminAccess.php:401
+msgid "Please Select User"
+msgstr ""
+
+#: includes/Api/Types/AdminAccess.php:147
+#: includes/Api/Types/AdminAccess.php:406
+msgid "Please Select Role"
+msgstr ""
+
+#: includes/Api/Types/AdminAccess.php:157
+msgid "User already exist!"
+msgstr ""
+
+#: includes/Api/Types/AdminAccess.php:165
+msgid "Role already exist!"
+msgstr ""
+
+#: includes/Api/Types/AdminAccess.php:173
+#: includes/Api/Types/AdminAccess.php:414
+msgid "Please select Menu"
+msgstr ""
+
+#: includes/Api/Types/AdminAccess.php:181
+#: includes/Api/Types/AdminAccess.php:188
+#: includes/Api/Types/AdminAccess.php:422
+#: includes/Api/Types/AdminAccess.php:429
+msgid "Administrator restriction not allowed!"
+msgstr ""
+
+#: includes/Api/Types/AdminAccess.php:475
+msgid "Param type is empty"
+msgstr ""
+
+#: includes/Api/Types/AdminAccess.php:482
+msgid "Param Ids is empty"
+msgstr ""
+
+#: includes/Api/Types/AdminColumn.php:99
+#: includes/Api/Types/AdminColumn.php:165
+msgid "Screen ID is required!"
+msgstr ""
+
+#: includes/Api/Types/Extension.php:88
+msgid "You can customize table column using this"
+msgstr ""
+
+#: includes/Api/Types/Extension.php:94
+msgid "You can restrict admin menu and submenu using this"
+msgstr ""
+
+#: includes/Api/Types/Extension.php:99
+msgid "Nav Menu Access Editor"
+msgstr ""
+
+#: includes/Api/Types/Extension.php:100
+msgid "You can restrict nav menu using this"
+msgstr ""
+
+#: includes/Api/Types/Extension.php:158
+msgid "Extensions is missing"
+msgstr ""
+
+#: includes/Hooks/Types/Filter/Types/ActionLink.php:20
+msgid "Documentation"
+msgstr ""
+
+#: includes/Models/AdminColumn.php:23
+msgid "Post Type"
+msgstr ""
+
+#: includes/Models/AdminColumn.php:29
+#: includes/Models/AdminColumn.php:32
+msgid "Media"
+msgstr ""
+
+#: includes/Models/AdminColumn.php:40
+#: includes/Models/AdminColumn.php:43
+msgid "Comments"
+msgstr ""
+
+#: includes/Models/AdminColumn.php:54
+#: includes/Models/AdminColumn.php:57
+msgid "Users"
+msgstr ""
+
+#: templates/app.php:13
+msgid "Loading..."
+msgstr ""
